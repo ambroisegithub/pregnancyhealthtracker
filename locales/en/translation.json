@@ -1,0 +1,158 @@
+{
+  "auth": {
+    "welcome": "Welcome to Pregnancy Tracker",
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "full_name": "Full Name",
+    "phone_number": "Phone Number",
+    "forgot_password": "Forgot Password",
+    "login_success": "Login successful",
+    "register_success": "Registration successful",
+    "invalid_credentials": "Invalid email or password",
+    "user_exists": "User with this email already exists",
+    "password_reset_sent": "Password reset link sent to your email",
+    "user_not_found": "User not found"
+  },
+  "pregnancy": {
+    "status": {
+      "pregnant": "Pregnant",
+      "delivered": "Delivered",
+      "aborted": "Aborted",
+      "infertile": "Infertile"
+    },
+    "form": {
+      "title": "Pregnancy Information",
+      "last_menstrual_period": "Last Menstrual Period",
+      "expected_due_date": "Expected Due Date",
+      "current_week": "Current Week",
+      "pregnancy_status": "Pregnancy Status",
+      "medical_conditions": "Medical Conditions",
+      "allergies": "Allergies",
+      "emergency_contact": "Emergency Contact",
+      "save": "Save Information"
+    },
+    "milestones": {
+      "title": "Pregnancy Milestones",
+      "week": "Week {{week}}",
+      "trimester_1": "First Trimester",
+      "trimester_2": "Second Trimester",
+      "trimester_3": "Third Trimester",
+      "baby_development": "Baby Development",
+      "mother_changes": "Changes in Mother"
+    }
+  },
+  "chat": {
+    "title": "Health Assistant",
+    "type_message": "Type your message...",
+    "send": "Send",
+    "chat_history": "Chat History",
+    "no_history": "No chat history available"
+  },
+  "profile": {
+    "title": "Profile",
+    "personal_info": "Personal Information",
+    "whatsapp_setup": "WhatsApp Setup",
+    "notifications": "Notifications",
+    "language": "Language",
+    "logout": "Logout",
+    "save_changes": "Save Changes"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "enable_notifications": "Enable Notifications",
+    "daily_tips": "Daily Tips",
+    "appointment_reminders": "Appointment Reminders",
+    "milestone_updates": "Milestone Updates"
+  },
+  "whatsapp": {
+    "setup_title": "WhatsApp Setup",
+    "phone_number": "Phone Number",
+    "verify": "Verify",
+    "enable_whatsapp": "Enable WhatsApp Notifications",
+    "verification_sent": "Verification code sent",
+    "invalid_code": "Invalid verification code"
+  },
+  "tips": {
+    "daily_tip": "Daily Tip",
+    "nutrition": "Nutrition",
+    "exercise": "Exercise",
+    "health": "Health",
+    "mental_health": "Mental Health"
+  },
+  "common": {
+    "continue": "Continue",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "choose_language": "Choose your language",
+    "language_updated": "Language updated successfully",
+    "validation_error": "Validation error",
+    "server_error": "Internal server error",
+    "invalid_parameter": "Invalid parameter provided"
+  },
+  "errors": {
+    "network_error": "Network connection error",
+    "server_error": "Server error occurred",
+    "validation_error": "Please check your input",
+    "unauthorized": "Unauthorized access",
+    "forbidden": "Access forbidden"
+  },
+    "reminders": {
+    "title": "Health Reminders",
+    "subtitle": "Stay on track with your pregnancy journey",
+    "upcoming": "Upcoming",
+    "history": "History",
+    "settings": "Settings",
+    "upcoming_title": "Your Upcoming Reminders",
+    "upcoming_subtitle": "You have {count} upcoming health reminders",
+    "history_title": "Reminder History",
+    "no_upcoming": "All caught up!",
+    "no_upcoming_subtitle": "You have no upcoming reminders. Keep up the great work!",
+    "mark_read": "Done",
+    "test_section": "Test Reminders",
+    "test_description": "Send yourself a test reminder to make sure notifications are working",
+    "test_reminder": "Test Reminder",
+    "test_confirmation": "Send a test {type} reminder to your WhatsApp?",
+    "test_sent": "Test reminder sent successfully",
+    "test_failed": "Failed to send test reminder",
+    "statistics": "Statistics",
+    "upcoming_count": "Upcoming Reminders",
+    "total_sent": "Total Reminders Sent",
+    "types": {
+      "anc": "ANC Visit",
+      "vaccination": "Vaccination",
+      "milestone": "Milestone"
+    },
+    "status": {
+      "pending": "Pending",
+      "sent": "Sent",
+      "failed": "Failed",
+      "dismissed": "Dismissed"
+    }
+  },
+      "articles": {
+      "daily_article": "Daily Article",
+      "weekly_articles": "Weekly Articles",
+      "no_articles": "No articles found",
+      "created_success": "Article created successfully",
+      "updated_success": "Article updated successfully",
+      "deleted_success": "Article deleted successfully",
+      "not_found": "Article not found",
+      "invalid_id": "Invalid article ID provided",
+        "title": "Health Articles",
+    "read_more": "Read More",
+    "back": "Back",
+     "generating": "Generating your personalized article...",
+    "ai_generated": "Your personalized article is ready!",
+    "generation_failed": "We couldn't generate your article right now. Please try again later."
+    }
+
+}

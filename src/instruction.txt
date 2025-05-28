@@ -1,0 +1,130 @@
+According to  this my backend Project Please Design The frontend Folder structure of rect mobile app with tailwindcss, typescript, redux tool kit by following how this below project structure and give me all complete files and each file are navigate logical depends to another one and clear give me the instructions of how the file are be connected each one be connected to another logical like said first screen is this after reach to their we can navigate by click here to go to the second screen , so make clear how to move from one page to another  
+
+
+
+
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-jsx",
+
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    }
+  }
+}
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['./App.{js,ts,tsx}', './components/**/*.{js,ts,tsx}'],
+
+  presets: [require('nativewind/preset')],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['./App.{js,ts,tsx}', './components/**/*.{js,ts,tsx}'],
+
+  presets: [require('nativewind/preset')],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+
+package.json
+
+  "scripts": {
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "start": "expo start",
+    "prebuild": "expo prebuild",
+    "lint": "eslint \"**/*.{js,jsx,ts,tsx}\" && prettier -c \"**/*.{js,jsx,ts,tsx,json}\"",
+    "format": "eslint \"**/*.{js,jsx,ts,tsx}\" --fix && prettier \"**/*.{js,jsx,ts,tsx,json}\" --write",
+    "web": "expo start --web"
+  },
+
+  const { getDefaultConfig } = require('expo/metro-config');
+  const { withNativeWind } = require('nativewind/metro');
+  
+  const config = getDefaultConfig(__dirname);
+  
+  module.exports = withNativeWind(config, { input: './global.css' });
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  module.exports = function (api) {
+    api.cache(true);
+    let plugins = [];
+  
+    return {
+      presets: [['babel-preset-expo', { jsxImportSource: 'nativewind' }], 'nativewind/babel'],
+  
+      plugins,
+    };
+  };
+  import { ScreenContent } from 'components/ScreenContent';
+  import { StatusBar } from 'expo-status-bar';
+  
+  import './global.css';
+  
+  export default function App() {
+    return (
+      <>
+        <ScreenContent title="Home" path="App.tsx"></ScreenContent>
+        <StatusBar style="auto" />
+      </>
+    );
+  }
+  
+  {
+    "expo": {
+      "name": "my-expo-app",
+      "slug": "my-expo-app",
+      "version": "1.0.0",
+  
+      "web": {
+        "favicon": "./assets/favicon.png"
+      },
+  
+      "experiments": {
+        "tsconfigPaths": true
+      },
+  
+      "plugins": [],
+  
+      "orientation": "portrait",
+      "icon": "./assets/icon.png",
+  
+      "userInterfaceStyle": "light",
+  
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "assetBundlePatterns": ["**/*"],
+      "ios": {
+        "supportsTablet": true
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/adaptive-icon.png",
+          "backgroundColor": "#ffffff"
+        }
+      }
+    }
+  }
+
+  // @ts-ignore
+  /// <reference types="nativewind/types" />
+  
+  
+
+

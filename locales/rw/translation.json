@@ -1,0 +1,158 @@
+{
+  "auth": {
+    "welcome": "Murakaza neza muri porogaramu yo gukurikirana inda",
+    "login": "Injira",
+    "register": "Iyandikishe",
+    "email": "Imeyili",
+    "password": "Ijambo ry'ibanga",
+    "confirm_password": "Emeza ijambo ry'ibanga",
+    "full_name": "Amazina yawe yose",
+    "phone_number": "Nimero ya telefone",
+    "forgot_password": "Wibagiwe ijambo ry'ibanga?",
+    "login_success": "Winjiye neza",
+    "register_success": "Kwiyandikisha byagenze neza",
+    "invalid_credentials": "Imeyili cyangwa ijambo ry'ibanga si byo",
+    "user_exists": "Hari uwiyandikishije akoresheje iyi imeyili",
+    "password_reset_sent": "Ubutumwa bwo guhindura ijambo ry'ibanga bwoherejwe",
+    "user_not_found": "Umukoresha ntiyabonetse"
+  },
+  "pregnancy": {
+    "status": {
+      "pregnant": "Utwite",
+      "delivered": "Yarabyaye",
+      "aborted": "Inda yaravuyemo",
+      "infertile": "Ntabushobozi bwo gutwita"
+    },
+    "form": {
+      "title": "Amakuru ku nda",
+      "last_menstrual_period": "Itariki y'imihango ya nyuma",
+      "expected_due_date": "Itariki y'ibarirwa kubyara",
+      "current_week": "Icyumweru ugezeho",
+      "pregnancy_status": "Uko inda imeze",
+      "medical_conditions": "Indwara ufite",
+      "allergies": "Ibyagutera kwangirika",
+      "emergency_contact": "Uwo wahamagara byihutirwa",
+      "save": "Bika amakuru"
+    },
+    "milestones": {
+      "title": "Ibyiciro by'inda",
+      "week": "Icyumweru {{week}}",
+      "trimester_1": "Igihembwe cya mbere",
+      "trimester_2": "Igihembwe cya kabiri",
+      "trimester_3": "Igihembwe cya gatatu",
+      "baby_development": "Uko umwana akura",
+      "mother_changes": "Impinduka ku mubyeyi"
+    }
+  },
+
+  "chat": {
+    "title": "Umufasha w’ubuzima",
+    "type_message": "Andika ubutumwa bwawe...",
+    "send": "Ohereza",
+    "chat_history": "Amateka y'ibiganiro",
+    "no_history": "Nta mateka y’ibiganiro ahari"
+  },
+  "profile": {
+    "title": "Umwirondoro",
+    "personal_info": "Amakuru yawe bwite",
+    "whatsapp_setup": "Gushyiraho WhatsApp",
+    "notifications": "Ubutumwa bwo kukumenyesha",
+    "language": "Ururimi",
+    "logout": "Sohoka",
+    "save_changes": "Bika impinduka"
+  },
+  "notifications": {
+    "title": "Ubutumwa bwo kukumenyesha",
+    "enable_notifications": "Emeza ubutumwa bwo kukumenyesha",
+    "daily_tips": "Inama za buri munsi",
+    "appointment_reminders": "Kwibutsa gahunda",
+    "milestone_updates": "Amakuru y’ingenzi ku nda"
+  },
+  "whatsapp": {
+    "setup_title": "Gushyiraho WhatsApp",
+    "phone_number": "Nimero ya telefone",
+    "verify": "Emeza",
+    "enable_whatsapp": "Emeza ubutumwa bwa WhatsApp",
+    "verification_sent": "Kode yo kwemeza yoherejwe",
+    "invalid_code": "Kode yo kwemeza si yo"
+  },
+  "tips": {
+    "daily_tip": "Inama y’umunsi",
+    "nutrition": "Imirire",
+    "exercise": "Imyitozo ngororangingo",
+    "health": "Ubuzima",
+    "mental_health": "Ubuzima bwo mu mutwe"
+  },
+  "common": {
+    "continue": "Komeza",
+    "cancel": "Hagarika",
+    "save": "Bika",
+    "edit": "Hindura",
+    "delete": "Siba",
+    "confirm": "Emeza",
+    "loading": "Birimo gupakira...",
+    "error": "Habaye ikosa",
+    "success": "Byagenze neza",
+    "choose_language": "Hitamo ururimi",
+    "language_updated": "Ururimi rwahinduwe neza",
+    "validation_error": "Ikosa ryo gusuzuma",
+    "server_error": "Ikosa ry'imbere mu sisitemu",
+    "invalid_parameter": "Ikosa ry'ibipimo"
+  },
+  "errors": {
+    "network_error": "Habaye ikibazo kuri interineti",
+    "server_error": "Habaye ikibazo kuri server",
+    "validation_error": "Reba neza ibyo wanditse",
+    "unauthorized": "Ntiwemerewe kubikora",
+    "forbidden": "Ntubyemerewe"
+  },
+    "reminders": {
+    "title": "Ibyibutso by'Ubuzima",
+    "subtitle": "Komeza urugendo rwawe rw'inda",
+    "upcoming": "Bizaza",
+    "history": "Amateka",
+    "settings": "Igenamiterere",
+    "upcoming_title": "Ibyibutso Bizaza",
+    "upcoming_subtitle": "Ufite ibyibutso {count} bizaza by'ubuzima",
+    "history_title": "Amateka y'Ibyibutso",
+    "no_upcoming": "Byose birakurikira!",
+    "no_upcoming_subtitle": "Nta byibutso bizaza ufite. Komeza neza!",
+    "mark_read": "Byarangiye",
+    "test_section": "Gerageza Ibyibutso",
+    "test_description": "Wicuze ibyibutso byo kwegenga kugira ngo urebe niba amakuru akora",
+    "test_reminder": "Ibyibutso byo Kwegenga",
+    "test_confirmation": "Kohereza ibyibutso {type} byo kwegenga kuri WhatsApp yawe?",
+    "test_sent": "Ibyibutso byo kwegenga byoherejwe neza",
+    "test_failed": "Byanze kohereza ibyibutso byo kwegenga",
+    "statistics": "Imibare",
+    "upcoming_count": "Ibyibutso Bizaza",
+    "total_sent": "Ibyibutso Byose Byoherejwe",
+    "types": {
+      "anc": "Gusura ANC",
+      "vaccination": "Gukingira",
+      "milestone": "Intambwe"
+    },
+    "status": {
+      "pending": "Bitegereje",
+      "sent": "Byoherejwe",
+      "failed": "Byanze",
+      "dismissed": "Byirengagijwe"
+    }
+  },
+    "articles": {
+    "daily_article": "Inyandiko y'umunsi",
+    "weekly_articles": "Inyandiko z'icyumweru",
+    "no_articles": "Nta nyandiko zabonetse",
+    "created_success": "Inyandiko yashyizweho neza",
+    "updated_success": "Inyandiko yavuguruwe neza",
+    "deleted_success": "Inyandiko yasibwe neza",
+    "not_found": "Inyandiko ntabwo yabonetse",
+    "invalid_id": "ID y'inyandiko idakwiye",
+    "title": "Inyandiko z’ubuzima",
+    "read_more": "Soma birambuye",
+    "back": "Subira inyuma",
+    "generating": "Turimo gukora inyandiko yawe yihariye...",
+    "ai_generated": "Inyandiko yawe yihariye yiteguye!",
+    "generation_failed": "Ntidushoboye gukora inyandiko yawe ubu. Nyamuneka ongera ugerageze nyuma."
+  }
+}

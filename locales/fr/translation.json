@@ -1,0 +1,159 @@
+{
+  "auth": {
+    "welcome": "Bienvenue dans le Suivi de Grossesse",
+    "login": "Connexion",
+    "register": "S'inscrire",
+    "email": "Email",
+    "password": "Mot de passe",
+    "confirm_password": "Confirmer le mot de passe",
+    "full_name": "Nom complet",
+    "phone_number": "Numéro de téléphone",
+    "forgot_password": "Mot de passe oublié",
+    "login_success": "Connexion réussie",
+    "register_success": "Inscription réussie",
+    "invalid_credentials": "Email ou mot de passe invalide",
+    "user_exists": "Un utilisateur avec cet email existe déjà",
+    "password_reset_sent": "Lien de réinitialisation envoyé à votre email",
+    "user_not_found": "Utilisateur non trouvé"
+  },
+  "pregnancy": {
+    "status": {
+      "pregnant": "Enceinte",
+      "delivered": "Accouchée",
+      "aborted": "Avortée",
+      "infertile": "Infertile"
+    },
+    "form": {
+      "title": "Informations de Grossesse",
+      "last_menstrual_period": "Dernières Règles",
+      "expected_due_date": "Date Prévue d'Accouchement",
+      "current_week": "Semaine Actuelle",
+      "pregnancy_status": "Statut de Grossesse",
+      "medical_conditions": "Conditions Médicales",
+      "allergies": "Allergies",
+      "emergency_contact": "Contact d'Urgence",
+      "save": "Sauvegarder les Informations"
+    },
+    "milestones": {
+      "title": "Étapes de la Grossesse",
+      "week": "Semaine {{week}}",
+      "trimester_1": "Premier Trimestre",
+      "trimester_2": "Deuxième Trimestre",
+      "trimester_3": "Troisième Trimestre",
+      "baby_development": "Développement du Bébé",
+      "mother_changes": "Changements chez la Mère"
+    }
+  },
+  "chat": {
+    "title": "Assistant Santé",
+    "type_message": "Tapez votre message...",
+    "send": "Envoyer",
+    "chat_history": "Historique des Conversations",
+    "no_history": "Aucun historique disponible"
+  },
+  "profile": {
+    "title": "Profil",
+    "personal_info": "Informations Personnelles",
+    "whatsapp_setup": "Configuration WhatsApp",
+    "notifications": "Notifications",
+    "language": "Langue",
+    "logout": "Déconnexion",
+    "save_changes": "Sauvegarder les Modifications"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "enable_notifications": "Activer les Notifications",
+    "daily_tips": "Conseils Quotidiens",
+    "appointment_reminders": "Rappels de Rendez-vous",
+    "milestone_updates": "Mises à jour des Étapes"
+  },
+  "whatsapp": {
+    "setup_title": "Configuration WhatsApp",
+    "phone_number": "Numéro de Téléphone",
+    "verify": "Vérifier",
+    "enable_whatsapp": "Activer les Notifications WhatsApp",
+    "verification_sent": "Code de vérification envoyé",
+    "invalid_code": "Code de vérification invalide"
+  },
+  "tips": {
+    "daily_tip": "Conseil du Jour",
+    "nutrition": "Nutrition",
+    "exercise": "Exercice",
+    "health": "Santé",
+    "mental_health": "Santé Mentale"
+  },
+  "common": {
+    "continue": "Continuer",
+    "cancel": "Annuler",
+    "save": "Sauvegarder",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "confirm": "Confirmer",
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "success": "Succès",
+    "choose_language": "Choisissez votre langue",
+    "language_updated": "Langue mise à jour avec succès",
+        "validation_error": "Validation error",
+    "server_error": "Internal server error",
+    "invalid_parameter": "Invalid parameter provided"
+  },
+  "errors": {
+    "network_error": "Erreur de connexion réseau",
+    "server_error": "Erreur serveur",
+    "validation_error": "Veuillez vérifier votre saisie",
+    "unauthorized": "Accès non autorisé",
+    "forbidden": "Accès interdit"
+  }
+  ,
+  "reminders": {
+    "title": "Rappels Santé",
+    "subtitle": "Suivez votre parcours de grossesse",
+    "upcoming": "À venir",
+    "history": "Historique",
+    "settings": "Paramètres",
+    "upcoming_title": "Vos Rappels À Venir",
+    "upcoming_subtitle": "Vous avez {count} rappels santé à venir",
+    "history_title": "Historique des Rappels",
+    "no_upcoming": "Tout est à jour!",
+    "no_upcoming_subtitle": "Vous n'avez aucun rappel à venir. Continuez comme ça!",
+    "mark_read": "Terminé",
+    "test_section": "Tester les Rappels",
+    "test_description": "Envoyez-vous un rappel de test pour vérifier que les notifications fonctionnent",
+    "test_reminder": "Rappel de Test",
+    "test_confirmation": "Envoyer un rappel de test {type} sur votre WhatsApp?",
+    "test_sent": "Rappel de test envoyé avec succès",
+    "test_failed": "Échec de l'envoi du rappel de test",
+    "statistics": "Statistiques",
+    "upcoming_count": "Rappels À Venir",
+    "total_sent": "Total Rappels Envoyés",
+    "types": {
+      "anc": "Visite ANC",
+      "vaccination": "Vaccination",
+      "milestone": "Étape"
+    },
+    "status": {
+      "pending": "En attente",
+      "sent": "Envoyé",
+      "failed": "Échoué",
+      "dismissed": "Ignoré"
+    }
+  },
+    "articles": {
+    "title": "Articles",
+    "daily_article": "Article du jour",
+    "weekly_articles": "Articles hebdomadaires",
+    "created_success": "Article créé avec succès",
+    "updated_success": "Article mis à jour avec succès",
+    "deleted_success": "Article supprimé avec succès",
+    "not_found": "Article non trouvé",
+    "invalid_id": "ID d'article invalide fourni",
+    "read_more": "Lire Plus",
+    "back": "Retour",
+    "no_articles": "Aucun article disponible",
+    "generating": "Génération de votre article personnalisé...",
+    "ai_generated": "Votre article personnalisé est prêt!",
+    "generation_failed": "Nous n'avons pas pu générer votre article maintenant. Veuillez réessayer plus tard."
+    }
+
+}
